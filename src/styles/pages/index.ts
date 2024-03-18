@@ -31,9 +31,11 @@ export const Header = styled('header', {
 })
 
 export const Card = styled('div', {
-    display: 'flex',
-    alignItems: 'center',
-    flexDirection: 'column'
+    background: '$green_700',
+    padding: '1.5rem',
+    textAlign: 'center',
+    textTransform: 'uppercase',
+    borderRadius: 10,
 })
 
 export const Box = styled('div', {
@@ -55,6 +57,5 @@ export const Box = styled('div', {
 })
 
 export const Content = styled('div', {
-   
-
+   background: '$green_700'
 })

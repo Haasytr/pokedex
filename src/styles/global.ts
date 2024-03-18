@@ -11,7 +11,6 @@ export const globalStyles = globalCss({
 
   body: {
     '-webkit-font-smoothing': 'antialiased',
-    backgroundImage: `url(${bgImg})`
   },
 
   'body, input, textarea, buton': {
